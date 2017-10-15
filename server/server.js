@@ -50,8 +50,8 @@ app.get('/todos/:id', (req, res) => {
   });
 });
 
-
-app.listen(PORT, () => {
+// port
+app.listen(port, () => {
   console.log(`Started up at port ${port}`);
 });
 
